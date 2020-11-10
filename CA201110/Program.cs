@@ -11,10 +11,20 @@ namespace CA201110
     {
         static void Main()
         {
-            var sw = new StreamWriter(@"..\..\Res\proba.txt");
-            sw.WriteLine("Hello World!\nZoli vagyok!\nSzeretem a csincsillákat!");
-            Console.WriteLine("kész");
-            sw.Close();
+            var sr = new StreamReader(@"..\..\Res\diakok.txt", Encoding.UTF8);
+
+            int lc = 0;
+            int hSum = 0;
+            while (!sr.EndOfStream)
+            {
+                lc++;
+                hSum += int.Parse(sr.ReadLine().Split(' ')[2]);
+            }
+
+            Console.WriteLine("diákkok száma: " + lc);
+            Console.WriteLine($"átlagmagasság: {hSum / (float)lc} cm");
+
+            sr.Close();
             Console.ReadKey();
         }
     }

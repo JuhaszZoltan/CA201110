@@ -1,3 +1,13 @@
-Hello World!
-Zoli vagyok!
-Szeretem a csincsillÃ¡kat!
+hello World!
+s string értéke: bableves
+Pi = 3,1416
+faszom tudja mi
+faszom tudja mi
+faszom tudja mi
+faszom tudja mi
+faszom tudja mi
+faszom tudja mi
+faszom tudja mi
+faszom tudja mi
+faszom tudja mi
+faszom tudja mi
