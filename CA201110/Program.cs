@@ -11,7 +11,7 @@ namespace CA201110
     {
         static void Main()
         {
-            var sw = new StreamWriter(@"proba.txt");
+            var sw = new StreamWriter(@"..\..\Res\proba.txt");
             sw.WriteLine("Hello World!\nZoli vagyok!\nSzeretem a csincsillákat!");
             Console.WriteLine("kész");
             sw.Close();
